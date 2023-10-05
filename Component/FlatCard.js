@@ -8,16 +8,16 @@ const FlatCard = () => {
             <Text style={styles.headingtext}>FlatCard</Text>
             <View style={styles.container}>
                 <View style={[styles.card,styles.onecard]}>
-                    <Text style={{fontSize:21}}> Hyd </Text>
+                    <Text style={{fontSize:18}}>Chikatimamidi </Text>
                 </View>
                 <View style={[styles.card,styles.twocard]}>
-                    <Text style={{fontSize:21}}> Blore </Text>
+                    <Text style={{fontSize:18}}>Bhongir </Text>
                 </View>
                 <View style={[styles.card,styles.threecard]}>
-                    <Text style={{fontSize:21}}> Vizag </Text>
+                    <Text style={{fontSize:18}}>ECIL </Text>
                 </View>
                 <View style={[styles.card,styles.threecard]}>
-                    <Text style={{fontSize:21}}> Pune </Text>
+                    <Text style={{fontSize:18}}>Yadagirigutta </Text>
                 </View>
             </View>
         </View>
@@ -29,9 +29,6 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         padding: 8,
         color:'grey'
-        
-        
-
     },
     container: {
         flex:1,

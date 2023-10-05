@@ -4,27 +4,28 @@ import React from 'react'
 export default function Passport() {
   return (
     <View>
-      <Text style={styles.mainText}>Passport</Text>
+      <Text style={styles.mainText}>Welcome to BSB</Text>
       <View>
       <Image
         style={styles.tinyLogo}
         source={{
-          uri: 'https://cdn.pixabay.com/photo/2017/10/05/23/37/ecstatic-2821540_1280.png',
+          uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+          
         }}
       />
      <View>
         <Text style={styles.title}>
-            Get Cartified!
+            Get Refresh!
         </Text>
         <Text style={styles.label}>
-        Become a Cloud Solution Architect or a Cloud DevOps Engineer with 360º learning experience.
+        BSB tea team is a certified  by the franchise and also by the government of Telangana state
         </Text>
         <Text style={styles.title}>
             Contect US:
             Our center   
         </Text>
         <Text style={styles.title}>
-            HYD | Blore | Pune | Vizag
+            Chikatimamidi
         </Text>
      </View>
       </View>

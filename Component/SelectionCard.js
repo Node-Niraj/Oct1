@@ -10,27 +10,27 @@ export default function SelectionCard() {
              showsHorizontalScrollIndicator={false}>
                 <View style={[styles.Cards, styles.CardSel]}>
                     <Text>
-                        AWS
+                        Tea
                     </Text>
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
                     <Text>
-                        Azure
+                        Coffee
                     </Text>
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
                     <Text>
-                        GCP
+                        Ginger Tea
                     </Text>
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
                     <Text>
-                        MMX
+                        Lemon Tea
                     </Text>
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
                     <Text>
-                        AXN
+                        Lassis
                     </Text>
                 </View>
             </ScrollView>
