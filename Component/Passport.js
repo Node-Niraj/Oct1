@@ -6,12 +6,16 @@ export default function Passport() {
     <View>
       <Text style={styles.mainText}>Welcome to BSB</Text>
       <View>
-      <Image
+      {/* <Image
         style={styles.tinyLogo}
         source={{
           uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
           
         }}
+      /> */}
+            <Image
+        style={styles.tinyLogo}
+          source={require('Oct1/Image/BSB.jpg')}
       />
      <View>
         <Text style={styles.title}>
@@ -37,12 +41,12 @@ const styles = StyleSheet.create(
     {mainText:{
         fontSize:21,
         fontWeight:"bold",
-        color:"Darkgrey",
-        padding: 8
+        color:"Darkgrey"
     },
     tinyLogo:{
         width: 380,
         height: 250,
+        margin:5
         
     },
     title:{
