@@ -1,4 +1,4 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
+import { ScrollView, StyleSheet, Text, View,Image} from 'react-native'
 import React from 'react'
 
 export default function SelectionCard() {
@@ -6,33 +6,51 @@ export default function SelectionCard() {
         <View>
             <Text style={styles.HeadersText}>SelectionCard</Text>
             <ScrollView style={styles.Container} horizontal
-             showsVerticalScrollIndicator={false}
-             showsHorizontalScrollIndicator={false}>
+                showsVerticalScrollIndicator={false}
+                showsHorizontalScrollIndicator={false}>
                 <View style={[styles.Cards, styles.CardSel]}>
-                    <Text>
-                        Tea
-                    </Text>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
-                    <Text>
-                        Coffee
-                    </Text>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
-                    <Text>
-                        Ginger Tea
-                    </Text>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
-                    <Text>
-                        Lemon Tea
-                    </Text>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
                 </View>
                 <View style={[styles.Cards, styles.CardSel]}>
-                    <Text>
-                        Lassis
-                    </Text>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
                 </View>
+                <View style={[styles.Cards, styles.CardSel]}>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
+                </View>
+                <View style={[styles.Cards, styles.CardSel]}>
+                <Image style={styles.tinyLogo} source={{
+                        uri: "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg",
+                    }}
+                    />
+                </View>
+                
             </ScrollView>
         </View>
     )
@@ -43,7 +61,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: "bold",
         color: "Purple",
-        padding: 8
+        padding: 10
 
     },
     Container: {
@@ -53,15 +71,20 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: "center",
-        width: 100,
-        height: 100,
-        borderRadius: 5,
         backgroundColor: "yellow",
-        margin: 6
+        margin:10
 
     },
     CardSel: {
-        backgroundColor: "lightcyan"
+        backgroundColor: "white"
 
-    }
+    },
+    tinyLogo:{
+        width:85,
+        height: 85,
+        borderRadius: 60
+        
+        
+        
+    },
 })
